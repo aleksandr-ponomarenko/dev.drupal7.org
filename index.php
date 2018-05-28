@@ -1,4 +1,6 @@
 <?php
-    echo 'try this';
-    file_put_contents('output.txt', 'string 1');
-?>
+    function custom_sum($a, $b) {
+        return $a + $b;
+    }
+    
+    print custom_sum(5, 10);
